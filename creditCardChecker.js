@@ -69,16 +69,22 @@ console.log(' ')
 // --- Creating list of companies who issued invalid cards ---
 
 // Storing bacth of invalid cards inside new variable:
-const invalidBatch = findInvalidCards(batch);
+let invalidBatch = findInvalidCards(batch);
 console.log(invalidBatch)
 console.log(' ')
 
 // Reversing the order of each array in the batch
-let reReversed = invalidBatch.forEach((a) => {
-  a.reverse();
-  console.log(a)
-})
+let reReversed = []
+// invalidBatch.forEach((a) => {
+//   reReversed.push(a.sort());
+  
+// })
 console.log(reReversed)
+console.log(' ')
 
 
 
+// Testing .reverse()
+ let array = [[1, 2] , [3, 4], [5, 6], [7, 8]]
+ console.log(array.reverse())
+ 
